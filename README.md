@@ -1,2 +1,4 @@
 # Portfolio
-My personal portfolio
+My personal portfolio In devlopment
+
+I will be sticking with bootstrap for this project
