@@ -25,5 +25,7 @@ Even though this was mainly backend work I still had a chance to work on Drupal'
 
 https://shopify.dev/api
 
+        <Gallery />
+
 
 ![This is the alt tag.](../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg "This is a markdown [caption](https://konstantin.digital).")

@@ -1,4 +1,5 @@
 import React from "react";
+import Gallery from "../components/gallery"
 import {
   AboutSection,
   ArticlesSection,
@@ -10,7 +11,12 @@ import {
   Seo,
 } from "gatsby-theme-portfolio-minimal";
 
+
+
 export default function IndexPage() {
+
+
+
   return (
     <>
       <Seo title="Aaron Pierson Portfolio" />
@@ -21,6 +27,8 @@ export default function IndexPage() {
         {/*<InterestsSection sectionId="details" heading="Details" />*/}
         <ProjectsSection sectionId="features" heading="Projects/Jobs" />
         <ContactSection sectionId="github" heading="Lets Work Together!" />
+        {/* <Gallery /> */}
+
       </Page>
     </>
   );
