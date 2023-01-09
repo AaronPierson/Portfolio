@@ -25,16 +25,50 @@ module.exports = {
         // } 
       },   
     },
-  //   {
-  //     resolve: `gatsby-source-filesystem`,
-  //     options: {
-  //       name: `gallery`,
-  //       path: `${__dirname}/content/images`,
-  //     },
-  //  },
-  //   `gatsby-transformer-sharp`,
-  //   `gatsby-plugin-sharp`,
-  //  // other plugins
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `gallery`,
+        path: `${__dirname}/content/images`,
+      },
+   },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+   
+    {
+      resolve: `gatsby-mdx`,
+      options: {
+        extensions: [".mdx", ".md"],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1035,
+              sizeByPixelDensity: true,
+              showCaptions: true,
+              linkImagesToOriginal: false,
+            },
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+            },
+          },
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: null,
+              rel: "nofollow noopener noreferrer external",
+            },
+          },
+          `gatsby-remark-slug`,
+        ],
+      },
+    },
+   // other plugins
 
   ],
 };

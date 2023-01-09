@@ -13,12 +13,8 @@
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://www.upwork.com/freelancers/~019d426c9a44c513f1"
         }
       ]
     },
@@ -34,8 +30,8 @@
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/AaronPierson/Sustalytics-Drupal"
+          "type": "external",
+          "url": "https://www.sustalytics.com"
         },
         {
           "type": "external",
