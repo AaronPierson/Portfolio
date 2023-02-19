@@ -18,12 +18,12 @@ module.exports = {
           path: "/blog", // Defines the slug for the blog listing page
           usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
         },
-        googleAnalytics: {
-            // trackingId: "UA-XXXXXX-X",
-            trackingId: "G-1F80EQCCBD",
-            anonymize: true, // Default true
-            environments: ["production", "development"] // Default ["production"]
-        } 
+        // googleAnalytics: {
+        //     trackingId: "UA-XXXXXX-X",
+        //     anonymize: true, // Default true
+        //     environments: ["production", "development"] // Default ["production"]
+        // } 
+
       },   
     },
     {
@@ -66,10 +66,35 @@ module.exports = {
             },
           },
           `gatsby-remark-slug`,
+          
         ],
       },
+
+      
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-1F80EQCCBD", // Google Analytics / GA
+        ],
+        gtagConfig: {
+          optimize_id: "OPT_CONTAINER_ID",
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        // This object is used for configuration specific to this plugin
+          pluginConfig: {
+        // Puts tracking script in the head instead of the body
+          head: true,
+        // Setting this parameter is also optional
+          respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+          // exclude: ["/preview/**", "/do-not-track/me/too/"],
+        },
+      },  
     },
    // other plugins
-
+    
   ],
 };
