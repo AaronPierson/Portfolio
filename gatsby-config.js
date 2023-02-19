@@ -18,11 +18,12 @@ module.exports = {
           path: "/blog", // Defines the slug for the blog listing page
           usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
         },
-        // googleAnalytics: {
-        //     trackingId: "UA-XXXXXX-X",
-        //     anonymize: true, // Default true
-        //     environments: ["production", "development"] // Default ["production"]
-        // } 
+        googleAnalytics: {
+            // trackingId: "UA-XXXXXX-X",
+            trackingId: "G-1F80EQCCBD",
+            anonymize: true, // Default true
+            environments: ["production", "development"] // Default ["production"]
+        } 
       },   
     },
     {
