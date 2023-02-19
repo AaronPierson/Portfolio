@@ -1,8 +1,8 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Aaron Pierson Portfolio",
+    "siteUrl": "aaronportfolio.com",
+    "title": "Aaron's Portfolio",
     "titleTemplate": "%s · Portfolio Minimal",
     "description": "I am a highly resourceful, innovative, and competent Full Stack developer.",
     "author": "Aaron Pierson",
