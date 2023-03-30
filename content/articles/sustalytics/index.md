@@ -1,24 +1,32 @@
 ---
-title: "My Portfolio Redesign"
-description: "From Ghost to Gatsby"
-date: "2022-01-07"
+title: "Sustalytics: Using Data Science to Empower Sustainable Fashion"
+description: "Learn how Sustalytics is helping fashion brands and retailers make more informed product decisions and reduce waste through data science."
+date: "2023-01-29"
 banner:
-  src: "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg"
-  alt: "First Markdown Post"
-  # caption: 'Photo by <u><a href="https://unsplash.com/photos/Nc5Q_CEcY44">Florian Olivo</a></u>'
+    src: "../../images/sustalytics-banner.jpg"
+    alt: "Sustalytics Banner"
 categories:
-  - "Web Devlopment"
+    - "Data Science"
+    - "Sustainability"
 keywords:
-  - "Ghost"
-  - "Gatsby"
-  - "React"
-
+    - "Fashion"
+    - "Data Science"
+    - "Sustainability"
 ---
+Sustalytics uses visual technology to help global brands and retailers understand consumer preferences before making product decisions to limit unnecessary overproduction. By predicting what consumers want, we empower fashion businesses to waste less and profit more.
 
-As a developer, it's important to keep your online portfolio up-to-date and reflective of your skills and experience. For the past two years, I had been using Ghost as the platform for my portfolio, but I recently decided it was time for a change. I wanted to not only give my portfolio a fresh new look, but also take advantage of the benefits that come with using a different platform. That's why I decided to make the switch to Gatsby. 
+## Their Story
+Launched in 2018 by fashion industry experts with the purpose to empower fashion businesses to be more sustainable and efficient. By creating a platform that prioritised the consumer, Sustalytics found a solution to the excessive waste seen in the industry today that causes not only a massive loss of profit, but client dissatisfaction and environmental degradation. Our answer to this is a platform that uses data science in order to identify consumer needs for fashion brands and retailers that directs them to only produce exactly what their customers want.
 
-For those who may not be familiar, Gatsby is a static site generator that uses React, GraphQL, and other modern technologies to build fast and efficient websites. As someone with more experience using React, and with personal projects that I would like to work on using Laravel and Vue, I was excited to not only improve my portfolio but also continue learning and using these frameworks. The transition from Ghost to Gatsby wasn't without its challenges, however. 
+## Their Solution
+We are much more than a tech platform. The fashion industry is one of the biggest polluters in the world and we saw an opportunity to disrupt the way retailers currently produce. Clients' key performance indicators achieved thanks to Sustalytics speak for themselves.
 
-I had to spend some time learning the ins and outs of Gatsby and how to properly migrate my content over to the new platform. But with a little bit of trial and error, I was able to get my portfolio up and running on Gatsby. One of the biggest benefits of using Gatsby has been the improvement in performance. My portfolio now loads much faster and has a smoother user experience overall. This is thanks to Gatsby's use of React and other technologies that make it easier to build fast and efficient websites. In the future, I have a number of goals for my portfolio. 
+## My Work
+For this project, I was tasked with building a Shopify web app that pulls store data for processing. I also worked on the client's Webflow site handling maintenance and setting up a REST API to improve workflow.
 
-I'd like to continue expanding my portfolio with new projects and technologies, and Gatsby's modern stack will allow me to do just that. I'm excited to see where this redesign takes me and can't wait to continue learning and improving my skills as a developer."
+As part of this project, I built a website for Sustalytics using Webflow and Drupal, and developed a Shopify app that allows users to checkout directly from the site. These solutions help streamline the user experience and improve overall efficiency.
+
+If you're in the fashion industry and looking to make more informed product decisions while reducing waste, consider partnering with Sustalytics. Our data-driven approach can help you better understand consumer preferences and empower you to create products that meet their needs.
+
+Contact Us
+Visit sustalytics.com to learn more about our platform and how we can help your fashion brand or retail business.
